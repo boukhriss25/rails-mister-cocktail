@@ -12,21 +12,34 @@ height: 175px; /* only if you want fixed height */
   background-position: center;
   color: black;
   position: relative;
+  margin: 20px;
+  border-radius: 10px;
 }
 
-.card-description h2 {
+.card-text a {
   font-size: 24px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.card-link {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  z-index: 2;
-  background: black;
-  opacity: 0;
-}
+
+
+// .card-link {
+//   position: absolute;
+//   top: 0;
+//   bottom: 0;
+//   right: 0;
+//   width: 100%;
+//   z-index: 2;
+//   background: black;
+//   opacity: 0;
+// }
 .card-link:hover {
-  opacity: 0.1;
+  opacity: 0.3;
+}
+
+.container > a {
+  margin: 0 50%;
+  width: 100px;
 }
